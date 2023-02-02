@@ -1,3 +1,9 @@
+/*
+ClearLineFromReadBuffer는 입력 버퍼에 남아있는 데이터를 소멸시키기 위한 함수이다.
+-> 문자열을 char * fgets(char * s, int len, FILE * stream) 함수를 이용해서 읽을 때 남아있는
+데이터를 비우기 위해서 사용한다.
+*/
+
 #include <stdio.h>
 
 void ClearLineFromReadBuffer(){
